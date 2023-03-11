@@ -1,0 +1,9 @@
+*{
+    background: rgb(244, 210, 149);
+}
+h1,h2,p{
+color: green;
+}
+img{
+    float: left;
+}

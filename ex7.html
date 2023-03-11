@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+    margin-left: 500px;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+}
+
+.left {
+  width: 40%;
+  height: 800px;
+}
+
+.right {
+  width: 15%;
+  height: 800px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row{
+    width: 55%;
+    height: 25px;
+    padding-left: 5%;
+    margin-right: 200px;
+   
+}
+h2{
+    text-align: center;
+    border: 1px solid rgb(236, 236, 206);
+    background-color: rgb(243, 243, 221);
+    width: 75%;
+}
+</style>
+</head>
+<body style="background-color: rgb(255, 255, 217);" >
+
+
+
+<div class="row" >
+    <h2> 2 column layout</h2></div>
+  <div class="column left" style="background-color:white;">
+   
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        
+        Nam eget turpis nunc. In quis augue eros. Vestibulum sit amet consectetur est. Vivamus nec auctor est. Aenean nec tellus at ante porttitor porta vitae et mi. Vivamus non nisi id enim convallis mattis in id lectus. Suspendisse ornare viverra sem, in rhoncus tellus fringilla vitae. Nunc tincidunt ante ac pharetra mattis. Nullam cursus leo eu pharetra molestie. Quisque at purus odio.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget turpis nunc. In quis augue eros. Vestibulum sit amet consectetur est. Vivamus nec auctor est. Aenean nec tellus at ante porttitor porta vitae et mi. Vivamus non nisi id enim convallis mattis in id lectus. Suspendisse ornare viverra sem, in rhoncus tellus fringilla vitae. Nunc tincidunt ante ac pharetra mattis. Nullam cursus leo eu pharetra molestie. Quisque at purus odio.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget turpis nunc. In quis augue eros. Vestibulum sit amet consectetur est. Vivamus nec auctor est. Aenean nec tellus at ante porttitor porta vitae et mi. Vivamus non nisi id enim convallis mattis in id lectus. Suspendisse ornare viverra sem, in rhoncus tellus fringilla vitae. Nunc tincidunt ante ac pharetra mattis. Nullam cursus leo eu pharetra molestie. Quisque at purus odio.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget turpis nunc. In quis augue eros. Vestibulum sit amet consectetur est. Vivamus nec auctor est. Aenean nec tellus at ante porttitor porta vitae et mi. Vivamus non nisi id enim convallis mattis in id lectus. Suspendisse ornare viverra sem, in rhoncus tellus fringilla vitae. Nunc tincidunt ante ac pharetra mattis. Nullam cursus leo eu pharetra molestie. Quisque at purus odio.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        
+       
+  </div>
+  <div class="column right" style="background-color:rgb(111, 107, 107);">
+  
+    <ul><li>item #1</li>
+        <li>item #2</li>
+        <li>item #3</li>
+    </ul>
+    <br><br><br><br><br>
+  </div>
+ 
+
+
+</body>
+</html>
